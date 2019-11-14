@@ -1,0 +1,43 @@
+{
+  "name": "housfy-common-test-front",
+  "version": "1.0.0",
+  "description": "This is the shared common testing framework in Housfy",
+  "main": "./lib/index.js",
+  "bin": {
+    "housfy-test": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrei.danilov@housfy.com",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^5.11.0",
+    "@wdio/cli": "^5.11.0",
+    "@wdio/local-runner": "^5.11.0",
+    "lodash": "^4.17.5",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/register": "^7.4.4",
+    "@types/cucumber": "^4.0.5",
+    "@types/node": "^12.0.12",
+    "@wdio/allure-reporter": "^5.11.0",
+    "@wdio/cucumber-framework": "^5.11.0",
+    "@wdio/dot-reporter": "^5.11.0",
+    "@wdio/selenium-standalone-service": "^5.11.2",
+    "@wdio/spec-reporter": "^5.11.0",
+    "@wdio/sync": "^5.11.0",
+    "allure-commandline": "^2.9.0",
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "fibers": "^4.0.1",
+    "husky": "^3.0.1",
+    "prettier": "^1.18.2"
+  }
+}

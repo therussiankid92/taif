@@ -1,0 +1,8 @@
+# package-lock
+package-lock.json
+
+#InteliiJ
+.idea/
+
+#Node Modules
+node_modules/
