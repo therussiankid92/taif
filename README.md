@@ -48,8 +48,7 @@ For wdio, please look at the conf.js:
 - Create your feature files in the path specified in the "specs"
 - Link those feature file with the steps placed in the path specified in cucumberOpts / require 
 - Write Features & Steps. We recommend you to use a test automation architecture such as page objects for a cleaner test automation solution. 
-- Example of code:
-
+ Code Example: 
  ```
  import { browserInteractions } from "housfy-common-test-front/lib"
   get inputEmail() {
@@ -59,7 +58,23 @@ For wdio, please look at the conf.js:
         browserInteractions.fillElement(this.inputEmail, this.getUser.login)
         }
  ``` 
-   
+ AdditionallY: 
+ - have a Selenium Grid running at the address and port specified. We use Zalenium for that.   
+ - have a babel.config file in the root of your project, if you don't have one already
+  ```
+ module.exports = {
+     presets: [
+         [
+             '@babel/preset-env',
+             {
+                 targets: {
+                     node: 'current',
+                 },
+             },
+         ],
+     ],
+ };
+  ```
  - ``` npm run test ```
-
+ 
 
