@@ -1,4 +1,4 @@
-# housfy-common-test-front
+# Test Automation Interface - Front
 
 ## Purpose
 This library has been created in order to simplify the handling of the test automation technology, de-coupling it from the actual test scripts and business-specific test logic, and making it re-usable throughout many projects.
@@ -28,7 +28,7 @@ When adding a new automation technology, you'll need to add one of these, refere
 First of all, import the following dependencies in your package.json:
 
    ```
-    "housfy-common-test-front": "housfy/housfy-common-test-front#master" 
+    "taif": "housfy/taif#master" 
    ```
 
 We use cucumber aswell for our project, because we like BDD:
@@ -50,7 +50,7 @@ For wdio, please look at the conf.js:
 - Write Features & Steps. We recommend you to use a test automation architecture such as page objects for a cleaner test automation solution. 
  Code Example: 
  ```
- import { browserInteractions } from "housfy-common-test-front/lib"
+ import { browserInteractions } from "taif/lib"
   get inputEmail() {
         return browserInteractions.findElement('body #email');
     }
