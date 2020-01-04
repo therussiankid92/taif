@@ -1,5 +1,5 @@
 {
-  "name": "housfy-common-test-front",
+  "name": "taif",
   "version": "1.0.0",
   "description": "This is the shared common testing framework in Housfy",
   "main": "./lib/index.js",
