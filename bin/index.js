@@ -6,18 +6,24 @@ const testExec = require("../lib/index");
 /** We get arguments after first two elements in process.argv **/
 var arguments = process.argv.splice(2);
 
-
 /**  we intialize the driver of the automation technology **/
 let driver = '';
+let personalizedConfPath = undefined;
 
 /**  check if first argument is `--params` and assign the argument as the automation technology **/
 if (arguments[0] === '--params'){
  driver = arguments[1];
 }
 
+/**  check if second argument is `--personalizedConfPath`and assign the argument as the personalizedConfPath **/
+if (arguments[2] === '--personalizedConfPath'){
+    personalizedConfPath = arguments[3];
+}
+
+
 /**  having set the automation technology, we initalize the general browserInteractions with the automation technology, and the general runner **/
 let browserInteractions = testExec.browserInteractions;
 browserInteractions.setDriver(driver);
-testExec.run(driver);
+testExec.run(driver, personalizedConfPath);
 
 
