@@ -58,7 +58,7 @@ For wdio, please look at the conf.js:
         browserInteractions.fillElement(this.inputEmail, this.getUser.login)
         }
  ``` 
- AdditionallY: 
+ Additionally: 
  - have a Selenium Grid running at the address and port specified. We use Zalenium for that.   
  - have a babel.config file in the root of your project, if you don't have one already
   ```
@@ -76,5 +76,9 @@ For wdio, please look at the conf.js:
  };
   ```
  - ``` npm run test ```
+ 
+ Want to use your on config?
+ Pass on your on config file with the following: 
+  ``` --personalizedConfPath /tests/wdio/runner/conf.js ```
  
 
