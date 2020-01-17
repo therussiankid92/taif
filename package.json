@@ -34,6 +34,7 @@
     "chromedriver": "^79.0.0",
     "cucumber": "^5.1.0",
     "prettier": "^1.18.2",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "cypress": "^3.8.2"
   }
 }
