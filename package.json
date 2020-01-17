@@ -35,6 +35,7 @@
     "cucumber": "^5.1.0",
     "prettier": "^1.18.2",
     "chai": "^4.2.0",
-    "cypress": "^3.8.2"
+    "cypress": "^3.8.2",
+    "cypress-cucumber-preprocessor": "^2.0.1"
   }
 }
