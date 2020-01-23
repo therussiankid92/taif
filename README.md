@@ -79,6 +79,8 @@ For wdio, please look at the conf.js:
  
  Want to use your on config?
  Pass on your on config file with the following: 
-  ``` --personalizedConfPath /tests/wdio/runner/conf.js ```
- 
+  ``` --personalizedConfPath /tests/wdio/runner/conf.js ```  
+
+## Example Project  
+Feel free to download the following example project, to understand how to set it up: https://github.com/therussiankid92/taif-example-cucumber-wdio
 
