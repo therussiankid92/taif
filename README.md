@@ -28,7 +28,7 @@ When adding a new automation technology, you'll need to add one of these, refere
 First of all, import the following dependencies in your package.json:
 
    ```
-    "taif": "therussiankid92/taif#master" 
+    "taif": "^1.0.9" 
    ```
 
 We use cucumber aswell for our project, because we like BDD:
