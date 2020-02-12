@@ -28,7 +28,7 @@ When adding a new automation technology, you'll need to add one of these, refere
 First of all, import the following dependencies in your package.json:
 
    ```
-    "taif": "housfy/taif#master" 
+    "taif": "therussiankid92/taif#master" 
    ```
 
 We use cucumber aswell for our project, because we like BDD:
@@ -41,7 +41,7 @@ We use cucumber aswell for our project, because we like BDD:
 Add the following scripts to your project. You can rename test to anything you like:
 
    ```  
-   "test": "housfy-test --params wdio"
+   "test": "taif --params wdio"
    ```
 
 For wdio, please look at the conf.js: 
