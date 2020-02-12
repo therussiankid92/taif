@@ -8,7 +8,6 @@
   },
   "scripts": {
     "test": "echo \"No test specified\"",
-    "publish": "npm run np"
   },
   "author": "therussiankid92",
   "license": "ISC",
