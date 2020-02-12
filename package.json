@@ -1,6 +1,6 @@
 {
   "name": "taif",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This is a shared common test automation framework model",
   "main": "./lib/index.js",
   "bin": {
