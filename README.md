@@ -1,6 +1,6 @@
 # Test Automation Interface - Front
 
-## Purpose
+## Purpose  
 This library has been created in order to simplify the handling of the test automation technology, de-coupling it from the actual test scripts and business-specific test logic, and making it re-usable throughout many projects.
 
 Looking back at the main UI test automation actions from history, we can see they are  mostly the same: click, insert text, drag & drop, read a configuration file, run a suite, etc. Why should one bother to re-write all of that, in every project in order to benefit from the latest test automation technologies?
